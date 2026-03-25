@@ -1,0 +1,13 @@
+{
+  "name": "crytex-platform",
+  "version": "1.0.0",
+  "description": "Crytex blockchain infrastructure",
+  "scripts": {
+    "start": "node backend/server.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ethers": "^6.0.0"
+  }
+}
